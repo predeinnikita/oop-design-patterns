@@ -4,7 +4,11 @@
     "target": "ES5",
     "module": "ES2015",
     "experimentalDecorators": true,
-    "moduleResolution": "NodeNext",
+    "lib": [
+      "ES6",
+      "DOM"
+    ],
+    // "moduleResolution": "NodeNext",
     "sourceMap": true,
   },
 }
